@@ -46,10 +46,10 @@ class MainActivity : AppCompatActivity() {
     {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).also { startActivity(it) }
     }
-    fun call(call:String)
-    {
-        Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel,$call")).also { startActivity(it) }
+    fun call(number: String) {
+         Intent(Intent.ACTION_DIAL, Uri.parse("tel:$number")).also { startActivity(it) }
     }
+
     fun call_log(){
 Intent(Intent.ACTION_VIEW).setType(CallLog.Calls.CONTENT_TYPE).also { startActivity(it) }
     }
