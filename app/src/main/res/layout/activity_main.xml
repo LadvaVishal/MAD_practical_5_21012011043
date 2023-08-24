@@ -6,15 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnCamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Camera"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/btnBrowser"
@@ -29,8 +21,8 @@
 
     <EditText
         android:id="@+id/editTextBrowse"
-        android:layout_width="155dp"
-        android:layout_height="50dp"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
@@ -133,10 +125,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginBottom="344dp"
         android:text="Camera"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCamera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
