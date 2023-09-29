@@ -3,10 +3,15 @@
 AIM: What is Intent? Write down types of Intent and types of Intent Action. Create an application which demonstrates implicit Intent for following features. 
 
 Make call to specific number
+
 Open specific URL
+
 Open Call Log
+
 Open Gallery
+
 Set Alarm
+
 Open Camera
 
 Ans: Intent is the Process of taking users from one application to another.
