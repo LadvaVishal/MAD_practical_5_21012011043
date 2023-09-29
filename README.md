@@ -30,6 +30,6 @@ Ans: Intent is the Process of taking users from one application to another.
 
 Output:
 
-![image](https://github.com/LadvaVishal/MAD_practical_5_21012011043/assets/113240232/c47905d7-3a63-4f22-a645-a8815864019f)
+![image](https://github.com/LadvaVishal/MAD_practical_5_21012011043/assets/113240232/2da0b4ad-49c9-4c6d-a5a6-fd5dac820214)
 
    
