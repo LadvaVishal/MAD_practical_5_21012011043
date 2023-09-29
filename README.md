@@ -1,30 +1,30 @@
 # MAD_practical_5_21012011043
 
-Study: Intent, types of Intent, types of Intent Action, Intent.setData() method, Intent.setType() method, TextInputEditText, TextInputLayout, Button, ConstraintLayout, CoordinatorLayout, startActivity() method, ActivityResultContracts.StartActivityForResult() method, registerForActivityResult() method, Permission in manifest, ContextCompat.checkSelfPermission(), ActivityCompat.requestPermissions() method, Uri.parse() method, 
-
-ContactsContract.Contacts.CONTENT_TYPE
-
-CallLog.Calls.CONTENT_TYPE
-
-"image/*"
-
-"tel:"
-
-<uses-permission android:name="android.permission.READ_CONTACTS" />
-
 AIM: What is Intent? Write down types of Intent and types of Intent Action. Create an application which demonstrates implicit Intent for following features. 
 
-1. Make call to specific number
+Make call to specific number
+Open specific URL
+Open Call Log
+Open Gallery
+Set Alarm
+Open Camera
 
-2. Open specific URL
+Ans: Intent is the Process of taking users from one application to another.
 
-3. Open Call Log
+-> There are two types of intents 
+   1. Implicit Intent & 2. Explicit Intent
+-> Types of Intent Action :-
 
-4. Open Gallery
+   1. ACTION_VIEW
+   2. ACTION_DIAL
+   3. ACTION_EDIT
+   4. ACTION_PICK
+   5. ACTION_ANSWER
+   6. ACTION_INSERT
+   7. ACTION_DELETE , etc..
 
-5. Set Alarm
+Output:
 
-6. Open Camera
-
+![image](https://github.com/LadvaVishal/MAD_practical_5_21012011043/assets/113240232/c47905d7-3a63-4f22-a645-a8815864019f)
 
    
