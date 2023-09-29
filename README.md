@@ -18,6 +18,7 @@ Ans: Intent is the Process of taking users from one application to another.
 
 -> There are two types of intents 
    1. Implicit Intent & 2. Explicit Intent
+
 -> Types of Intent Action :-
 
    1. ACTION_VIEW
